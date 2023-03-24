@@ -75,6 +75,28 @@ const user = {
 
 alert(user.age);*/
 
+
+// Task 9.4
+/*let info = prompt('Какую информацию хотите узнать о пользователе?');
+const user = {
+    age: info,
+}
+
+alert(user.age);*/
+
+// Task 9.4 (2-й вариант)
+/*let info = prompt('Какую информацию хотите узнать о пользователе?'); // пользователь вводит к примеру age
+
+const user = {
+    age: 40,
+}
+
+alert(user[info]); // обращаемся к ключу age*/
+
+/*// Task 10
+let yourName = prompt('Как тебя зовут?');
+alert(`Привет, ${yourName}!`)*/
+
 /*// Task 10
 let yourName = prompt('Как тебя зовут?');
 alert(`Привет, ${yourName}!`)*/
