@@ -64,11 +64,12 @@ alert(n);
 alert(num);*/
 
 // Task 6
-let date, weekday;
-weekday = Number(prompt('Какое число - первая пятница месяца?'));
+let firstFriday = Number(prompt('Какое число - первая пятница месяца?'));
+let day = firstFriday;
 
-do {
-  date =  Number(prompt('Какое сегодня число?'));
-  if ((date - weekday)%7 == 0) { 
-		alert(`Сегодня пятница, ${date}-е число. Необходимо подготовить отчет.`);
-}} while (date <= 31);
+while (day <= 31) {
+  if (day === firstFriday || day % 7 === firstFriday % 7) {
+    alert(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+  }
+  day++;
+}
