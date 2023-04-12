@@ -54,8 +54,7 @@ console.log(arr);*/
 
 /*let num = Number(prompt('Введите целое число'));
 
-const arr = (num, min, max) => new Array(num).fill(0).map(el => Math.floor(Math.random() * (max - min + 1)) + min);
-console.log(arr((Math.floor(num / 2)), 0, num));*/
+const arr = (num, min, max) => Array.from({length: num}, (el => Math.floor(Math.random() * (max - min + 1)) + min);*/
 
 // Task 7
 
