@@ -19,7 +19,7 @@ function words() {
 
   arr = arr.sort(() => Math.random() - 0.5);
 
-  alert(arr[0] + ' ' + arr[6]);
+  alert(arr);
 
   let answer1 = String(prompt('Чему равнялся первый элемент массива?'));
 
