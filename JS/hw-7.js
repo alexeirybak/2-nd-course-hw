@@ -5,15 +5,15 @@ console.log(str.toUpperCase());*/
 
 // Task 2
 
-/*const words = ['Кошка', 'Кит', 'Комар', 'Носорог', 'Кентавр', 'Коза', 'Корова', 'Скопа', 'Кобра'];
+/*function str(arr, require) {
+    return arr.map(element => element.toLowerCase()).filter(element => element.startsWith(require));
+}
 
-let require = prompt('Ввведите запрос');
+const searchStart= (['Кошка', 'Кит', 'Комар', 'Носорог']);
 
-words.forEach((wordsRequire) => {
-	if (wordsRequire.toLowerCase().includes(require.toLowerCase())) {
-		console.log(wordsRequire);
-	}
-});*/
+let require = 'ко';
+
+console.log(str(searchStart, require));*/
 
 // Task 3
 
