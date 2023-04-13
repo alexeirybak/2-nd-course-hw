@@ -119,7 +119,7 @@ console.log(fullDate + fullTime); */
   
 	arr = arr.sort(() => Math.random() - 0.5);
   
-	alert(arr[0] + ' ' + arr[arr.length]);
+	alert(arr);
   
 	let answer1 = String(prompt('Чему равнялся первый элемент массива?'));
   
