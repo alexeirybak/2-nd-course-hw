@@ -119,15 +119,15 @@ console.log(fullDate + fullTime); */
   
 	arr = arr.sort(() => Math.random() - 0.5);
   
-	alert(arr[0] + ' ' + arr[6]);
+	alert(arr[0] + ' ' + arr[arr.length]);
   
 	let answer1 = String(prompt('Чему равнялся первый элемент массива?'));
   
 	let answer2 = String(prompt('Чему равнялся последний элемент массива?'));
   
-	if (answer1.toLowerCase() == arr[0].toLowerCase() && answer2 == arr[6].toLowerCase()) {
+	if (answer1.toLowerCase() == arr[0].toLowerCase() && answer2 == arr[arr.length].toLowerCase()) {
 	  alert('Поздравляю, Вы угадали оба элемента массива');
-	} else if (answer2.toLowerCase() == arr[0].toLowerCase() || answer2 == arr[6].toLowerCase()) {
+	} else if (answer2.toLowerCase() == arr[0].toLowerCase() || answer2 == arr[arr.length].toLowerCase()) {
 	  alert('Вы были близки к победе!');
 	} else {
 	  alert('Вы ответили неверно! Стэнли Милгрэма на Вас нет!');
