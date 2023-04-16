@@ -1,5 +1,7 @@
 // Task 1
 
+// Вариант 1
+
 /*function mult(arr) {
   result = arr[0] * arr[1] * arr[2] * arr[3];
   console.log(result);
@@ -18,6 +20,20 @@ arr = [3, 4, 1, 9];
 
 getResult(mult, arr);
 getResult(sum, arr);*/
+
+// Вариант 2
+
+/*function getResult(arr, operation) {
+  return Math.round(operation(arr));
+}
+const sum = (arr) => {
+  return arr.reduce((currentSum, element) => currentSum + element);
+}
+const mult = (arr) => {
+  return arr.reduce((currentMult, element) => currentMult * element);
+}
+console.log(getResult([3, 4, 1, 9], mult));
+console.log(getResult([3, 4, 1, 9], sum)); */
 
 // Task 2
 
