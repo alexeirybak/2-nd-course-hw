@@ -99,10 +99,10 @@ setTimeout(() => { clearInterval(timerId); console.log('30 секунд прош
   console.log('Звоню!')
 };
 
-function beeps() {
+function beeps(callback) {
   setTimeout(() => {
       console.log('Идут гудки...')
-      talk();
+      callback();
   }, 1000);
   
 }
@@ -112,7 +112,8 @@ function talk() {
 }
 
 calling();
-beeps();*/
+beeps(talk);
+*/
 	
 
 
